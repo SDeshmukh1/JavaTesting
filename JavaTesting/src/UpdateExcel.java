@@ -93,7 +93,7 @@ public class UpdateExcel {
 					
 					if(SummaryWB.getSheetAt(i).getRow(j).getCell(coltraverse).
 							toString().equalsIgnoreCase("Fail")) {
-						
+						//System.out.println("Test");
 						
 						CountFail++;
 					}
